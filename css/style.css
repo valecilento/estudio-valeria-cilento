@@ -1,4 +1,4 @@
-*{
+* {
    margin: 0;
    padding: 0;
 }
@@ -8,68 +8,82 @@ header {
    height: 620px;
    margin-bottom: 3em;
 }
-.navbar{
-   height: 8em;
-   background-color: rgba(107, 99, 90, 0.379);
+.navbar {
+   background-color: rgba(168, 175, 175, 0.769);
    position: sticky;
    top: 0;
    z-index: 1;
 }
-.navbar-brand img{
+.navbar-brand img {
    width: 100%;
 }
-.logo-navbar{
+.logo-navbar {
    margin-left: 3em;
-   width:10%;
+   width: 12%;
 }
-.nav-link{
-   color: rgb(243, 235, 230);
+.nav-link {
+   color:  rgb(59, 57, 57);
    font-weight: bold;
 }
-.card-title{
+.nav-link:hover{
+   color:  rgb(111, 106, 6);
+   background-color: rgba(206, 199, 199, 0.189);
+   border-radius: 15%;
+}
+.card-title {
    font-family: 'Times New Roman', Times, serif;
    font-weight: bold;
    margin-top: 4em;
    margin-bottom: 2em;
 }
-.card-text{
+.card-text {
    font-family: Arial, Helvetica, sans-serif;
 }
-.img-servicios{
+.img-servicios {
    width: 70%;
    height: 70%;
 }
-h3{
+h3 {
    font-size: larger;
 }
-.btn-light{
+.btn-light {
    display: flex;
    justify-content: center;
    font-family: Arial, Helvetica, sans-serif;
 }
+.label-tel {
+   margin-left: 4em;
+}
 .btn-primary {
-   background-color: rgba(70, 42, 25, 0.514) ;
+   background-color: rgba(70, 42, 25, 0.514);
    border: none;
 }
-.btn-primary:hover{
+.btn-primary:hover {
    background-color: rgb(100, 106, 108);
    border: none;
 }
-.texto-logo{
+.texto-logo {
    font-weight: 600;
    font-size: small;
 }
-.logo{
+.logo {
    width: 60%;
 }
-li{
+li {
    list-style: none;
 }
-.descripcion-img-redes{
-   font-size: smaller;
-   align-items: center;
+a {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
 }
-.ratio{
+a:hover{
+   color:  rgb(111, 106, 6);
+   font-weight: bold;
+}
+.descripcion-img-redes {
+   font-size: smaller;
+}
+.ratio {
    width: 100%;
    height: max-content;
    margin-bottom: 5em;
