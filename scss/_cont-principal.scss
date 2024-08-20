@@ -4,6 +4,9 @@
       display: flex;
       justify-content: center;
       @include estilo-btn;
+      &:hover {
+         @include btn-hover;
+      }
    }
 }
 .contenedor-contacto{
@@ -14,9 +17,7 @@
       background-color: map-get($colores, primero);
       border: none;
       &:hover {
-         background-color: map-get($colores, segundo);
-         border: none;
-         color: rgb(0, 0, 0);
+         @include btn-hover;
       }
    }
 }

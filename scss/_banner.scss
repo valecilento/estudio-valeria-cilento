@@ -20,7 +20,7 @@
          color: map-get($colores, segundo);
          font-weight: bold;
          &:hover{
-            color: map-get($colores, tercero);
+            color: #000000;
          }
       }
    }
