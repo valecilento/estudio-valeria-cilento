@@ -12,6 +12,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <title>Servicios</title>
 </head>
 <body>
@@ -46,7 +47,7 @@
    </header>
    <main> <!--container de servicios, nosotros y contacto-->
       <section class="container">
-         <div class="row justify-content-center mb-5">
+         <div data-aos="fade-up" class="row justify-content-center mb-5">
             <div class="col-10 col-md-5 text-center">
                <h3>ACCIDENTES DE TRÁNSITO</h3>
                <p>
@@ -59,7 +60,7 @@
                   class="img-thumbnail"/>
             </div>
          </div>
-         <div class="row justify-content-center mb-5">
+         <div data-aos="fade-up" class="row justify-content-center mb-5">
             <div class="col-10 col-md-5 text-center">
                <h3>ACCIDENTES DE TRABAJO</h3>
                <p>
@@ -71,11 +72,11 @@
                <img src="../assets/accidentes-de-trabajo.jpg" alt="img accidentes de trabajo" class="img-thumbnail"/>
             </div>
          </div>
-         <div class="row justify-content-center mb-5">
+         <div data-aos="fade-up" class="row justify-content-center mb-5">
             <div class="col-10 col-md-5 text-center">
                <h3>SUCESIONES</h3>
                <p>
-                  Ante el fallecimiento de un familiar, los acompañamos ante el dolor de dicha pérdida así como en el proceso judicial para la disposición y adjudicación de los bienes -y deudas- que le pertenecían en vida. 
+                  Te acompañamos ante la pérdida de un familiar y llevamos a cabo el proceso judicial para la disposición y adjudicación de los bienes -y deudas- que le pertenecían en vida.
                </p>
                <a href="./servicios.html" class="btn btn-light mb-5">Ver más</a>
             </div>
@@ -136,8 +137,10 @@
          </div>
       </div>
    </footer>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script> <!--script bootstrap-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
 </body>
 </html>

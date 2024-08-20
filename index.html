@@ -11,8 +11,8 @@
   <!--fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Estudio Jurídico CilentoDiaz</title>
 </head>
 <body>
@@ -49,18 +49,18 @@
   <main> <!--servicios en index, nosotros y contacto-->
     <section class="container nesting"> 
       <div class="row justify-content-center text-center">
-        <div class="col-md-3 col-8 mb-5">
+        <div data-aos="fade-up" class="col-md-3 col-8 mb-5">
           <div class="mb-2">
             <img src="./assets/accidente-de-transito.jpg" alt="imagen de accidentes de tránsito"
               class="img-thumbnail rounded-circle"/>
           </div>
           <h3>ACCIDENTES DE TRÁNSITO</h3>
           <p>
-            Si sufriste un accidente de tránsito por culpa de otro conductor tenés derecho a una reparación integral de todos los daños sufridos: Daños físicos a tu persona (lesiones) como materiales del vehículo.
+            Si sufriste un accidente de tránsito por culpa de otro conductor tenés derecho a una reparación integral de todos los daños sufridos -tanto físicos como materiales-.
           </p>
           <a href="./pages/servicios.html" class="btn btn-light">Ver más</a>
         </div>
-        <div class="col-md-3 col-8">
+        <div data-aos="fade-up" class="col-md-3 col-8">
           <div class="mb-2">
             <img src="./assets/accidentes-de-trabajo.jpg" alt="img accidentes de trabajo"
               class="img-thumbnail rounded-circle" />
@@ -71,19 +71,19 @@
           </p>
           <a href="./pages/servicios.html" class="btn btn-light">Ver más</a>
         </div>
-        <div class="col-md-3 col-8">
+        <div data-aos="fade-up" class="col-md-3 col-8">
           <div class="mb-2">
             <img src="./assets/sucesiones.jpg" alt="img sucesiones" class="img-thumbnail rounded-circle" />
           </div>
           <h3>SUCESIONES</h3>
           <p>
-            Ante el fallecimiento de un familiar, los acompañamos ante el dolor de dicha pérdida así como en el proceso judicial para la disposición y adjudicación de los bienes -y deudas- que le pertenecían en vida. 
+            Te acompañamos ante la pérdida de un familiar y llevamos a cabo el proceso judicial para la disposición y adjudicación de los bienes -y deudas- que le pertenecían en vida. 
           </p>
           <a href="./pages/servicios.html" class="btn btn-light">Ver más</a>
         </div>
       </div>
     </section>
-    <div class="container mt-5 nesting" id="nosotros">
+    <div data-aos="fade-up" class="container mt-5 nesting" id="nosotros">
       <div class="row mb-5">
         <div class="col-md-6">
           <h3 class="text-md-start text-center">NOSOTROS</h3>
@@ -97,7 +97,7 @@
       </div>
     </div>
     <aside>
-      <div class="contenedor-contacto text-center mb-5">
+      <div data-aos="fade-up" class="contenedor-contacto text-center mb-5">
         <h4 class="mb-5">CONTACTO</h4>
         <p>
           Dejanos tus datos y nuestro equipo se comunicará a la brevedad.<br/>Horario
@@ -178,6 +178,10 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script> <!--script bootstrap-->
+    crossorigin="anonymous"></script> 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
