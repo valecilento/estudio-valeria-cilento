@@ -31,7 +31,7 @@
   font-weight: bold;
 }
 .cabecera .navbar .nav-link:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(75, 75, 72);
 }
 
 .cabecera .card-title {
@@ -51,11 +51,7 @@
   background-color: rgba(202, 202, 202, 0.58);
   font-weight: 600;
 }
-
 /*main*/
-.nesting h3 {
-  font-size: larger;
-}
 .nesting .btn-light {
   display: flex;
   justify-content: center;
@@ -110,23 +106,23 @@
   margin-bottom: 5em;
 }
 
+@keyframes move {
+  0% {
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    transform: scale(1.1) rotate(22deg);
+  }
+  100% {
+    transform: scale(1) rotate(-22deg);
+  }
+}
+@keyframes title {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
 /*# sourceMappingURL=main.css.map */
-@keyframes move{
-  0%{
-     transform: translate(0) rotate(0);
-  }
-  50%{
-     transform: scale(1.1) rotate(22deg);
-  }
-  100%{
-     transform: scale(1) rotate(-22deg);
-  }
-}
-@keyframes title{
-  from{
-     transform: scale(1);
-  }
-  to{
-     transform: scale(1.1);
-  }
-}

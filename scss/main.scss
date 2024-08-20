@@ -1,12 +1,31 @@
 /*scss*/
-@import './vars';
+@import './config/vars';
 @import './config/reset';
-@import './mixin';
+@import './config/mixin';
 @import './banner';
 @import './cabecera';
 @import './cont-principal';
 @import './pie';
 
+@keyframes move{
+   0%{
+      transform: translate(0) rotate(0);
+   }
+   50%{
+      transform: scale(1.1) rotate(22deg);
+   }
+   100%{
+      transform: scale(1) rotate(-22deg);
+   }
+}
+@keyframes title{
+   from{
+      transform: scale(1);
+   }
+   to{
+      transform: scale(1.1);
+   }
+}
 
 
 
