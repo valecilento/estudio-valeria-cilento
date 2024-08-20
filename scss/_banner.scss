@@ -1,0 +1,27 @@
+//Nesting
+.cabecera{
+   background-image: url(../assets/background.png);
+   background-size: cover;
+   height: 620px;
+   margin-bottom: 3em;
+   .navbar{
+      background-color: map-get($colores, primero);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      .logo-navbar{
+         margin-left: 3em;
+         width: 12%;
+         /*animación del logo*/
+         animation-name: move;
+         @include animacion;
+      }
+      .nav-link{
+         color: map-get($colores, segundo);
+         font-weight: bold;
+         &:hover{
+            color: map-get($colores, tercero);
+         }
+      }
+   }
+}

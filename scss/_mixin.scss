@@ -1,0 +1,10 @@
+@mixin estilo-btn{
+   font-family: $font-secondary;
+   background-color: map-get($colores, cuarto);
+}
+@mixin animacion{
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-delay: 3;
+   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

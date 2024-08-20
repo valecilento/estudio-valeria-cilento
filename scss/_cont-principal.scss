@@ -1,0 +1,25 @@
+/*main*/
+.nesting {
+   h3 {
+      font-size: larger;
+   }
+   .btn-light {
+      display: flex;
+      justify-content: center;
+      @include estilo-btn;
+   }
+}
+.contenedor-contacto{
+   .label-tel {
+      margin-left: 4em;
+   }
+   .btn-primary {
+      background-color: map-get($colores, primero);
+      border: none;
+      &:hover {
+         background-color: map-get($colores, segundo);
+         border: none;
+         color: rgb(0, 0, 0);
+      }
+   }
+}
