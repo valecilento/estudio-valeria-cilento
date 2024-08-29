@@ -93,6 +93,10 @@
   font-weight: 600;
   font-size: small;
 }
+.nesting-pie .titulo-footer {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
 .nesting-pie li {
   list-style: none;
 }
