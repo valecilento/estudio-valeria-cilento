@@ -11,7 +11,7 @@
       font-size: small;
    }
    .titulo-footer{
-      font-weight: bold;
+      @include titulos;
       font-family: 'Times New Roman', Times, serif;
    }
    li{

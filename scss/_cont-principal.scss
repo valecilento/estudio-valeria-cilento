@@ -8,8 +8,14 @@
          @include btn-hover;
       }
    }
+   .titulo-servicios{
+      @include titulos;
+   }
 }
 .contenedor-contacto{
+   .titulo-servicios{
+      @include titulos;
+   }
    .label-tel {
       margin-left: 4em;
    }

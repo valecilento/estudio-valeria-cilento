@@ -9,8 +9,12 @@
    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 @mixin btn-hover{
-   background-color: map-get($colores, segundo);
+   background-color: map-get($colores, septimo);
    border: none;
    color: rgb(0, 0, 0);
+}
+@mixin titulos{
+   font-size: larger;
+   font-weight: bolder;
 }
 
