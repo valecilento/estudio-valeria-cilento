@@ -1,17 +1,20 @@
 //Nesting
 .cabecera{
-   .card-title{
-      font-family: $font-primary;
-      font-weight: 550;
-      margin-top: 4em;
-      margin-bottom: 2em;
-      color: map-get($colores, sexto);
-      /*animación del título*/
-      animation-name: title;
-      @include animacion;
-   }
-   .card-text{
-      font-weight: $size-letra;
-      color: map-get($colores, segundo);
+   .card{
+      overflow: hidden;
+      .card-title{
+         font-family: $font-primary;
+         font-weight: 550;
+         margin-top: 4em;
+         margin-bottom: 2em;
+         color: map-get($colores, sexto);
+         /*animación del título*/
+         animation-name: title;
+         @include animacion;
+      }
+      .card-text{
+         font-weight: $size-letra;
+         color: map-get($colores, segundo);
+      }
    }
 }

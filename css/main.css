@@ -36,12 +36,15 @@
   color: #000000;
 }
 
-.cabecera .card-title {
+.cabecera .card {
+  overflow: hidden;
+}
+.cabecera .card .card-title {
   font-family: "Times New Roman", Times, serif;
   font-weight: 550;
   margin-top: 4em;
   margin-bottom: 2em;
-  color: rgb(215, 188, 138);
+  color: rgb(207, 172, 107);
   /*animación del título*/
   animation-name: title;
   animation-duration: 5s;
@@ -49,7 +52,7 @@
   animation-delay: 3;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.cabecera .card-text {
+.cabecera .card .card-text {
   font-weight: 600;
   color: rgb(241, 239, 234);
 }
