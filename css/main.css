@@ -20,7 +20,8 @@
 }
 .cabecera .navbar .logo-navbar {
   margin-left: 3em;
-  width: 12%;
+  width: 11%;
+  height: 100%;
   /*animación del logo*/
   animation-name: move;
   animation-duration: 5s;
@@ -99,7 +100,8 @@
 
 /*footer*/
 .nesting-pie .logo {
-  width: 60%;
+  width: 50%;
+  height: 100%;
   /*animación del logo*/
   animation-name: move;
   animation-duration: 5s;
