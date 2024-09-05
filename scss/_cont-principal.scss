@@ -1,5 +1,8 @@
 /*main*/
 .nesting {
+   .imagen-serv{
+      @include imagen;
+   }
    .btn-light {
       display: flex;
       justify-content: center;
