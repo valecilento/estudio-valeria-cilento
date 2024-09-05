@@ -44,7 +44,8 @@
   font-weight: 550;
   margin-top: 4em;
   margin-bottom: 2em;
-  color: rgb(207, 172, 107);
+  color: rgb(105, 44, 44);
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
   /*animación del título*/
   animation-name: title;
   animation-duration: 5s;
@@ -55,6 +56,7 @@
 .cabecera .card .card-text {
   font-weight: 600;
   color: rgb(241, 239, 234);
+  text-shadow: 3px 2px 5px rgba(238, 211, 211, 0.5);
 }
 
 /*main*/
