@@ -2,7 +2,6 @@
 .nesting-pie{
    .logo {
       width: 50%;
-      height: 100%;
       /*animación del logo*/
       animation-name: move;
       @include animacion;
